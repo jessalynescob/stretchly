@@ -21,6 +21,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 - fix snap startup crash
 - improve Linux desktop integration
 - time-to-break tray icon no longer requests a missing number icon when more than 99 minutes remain
+- break text no longer gets cut off in small break windows; it scales down to fit
 
 ### Changed
 - renamed `microbreak` to `miniBreak` and `break` to `longBreak`; preferences migrate automatically
